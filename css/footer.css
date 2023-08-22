@@ -1,0 +1,145 @@
+.full-container {
+    max-width:1296px;
+    margin: 0 auto;
+}
+
+/* footer */
+.footer {
+    font-family: Stolzl, sans-serif;
+    margin-top: 120px;
+    border-top: 1px solid rgba(51, 51, 51, 0.3);
+}
+
+.footer-logo {
+    margin-right: 111px;
+}
+
+.footer-sections {
+    border-bottom: 1px solid rgba(51, 51, 51, 0.3);
+    padding-top: 60px;;
+}
+    
+.footer-nav_item {
+    list-style-type: none;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.footer-nav-link {
+    font-family: Stolzl, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.footer-nav-1 {
+    margin: 0;
+    padding: 0;
+    width: 196px;
+    height: 178px;
+}
+
+.footer-nav-2,
+.footer-nav-3 {
+    margin: 0;
+    padding: 0;
+    width: 306px;
+}
+
+.footer-nav-title {
+    white-space: nowrap;
+    margin: 0 0 24px 0;
+    padding: 0;
+    font-family: Stolzl, sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.footer-nav-list {
+    margin: 0;
+    padding: 0;
+    font-family: Stolzl, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-nav_item {
+    white-space: nowrap;
+}
+
+.footer-nav_item-img {
+    margin-right: 16px;
+}
+
+.footer-logo {
+    display: inline-flex;
+    width: 195px;
+    height: 96px;
+    padding-top: 18px;
+}
+
+.footer-nav-wrap {
+    display: flex;
+    gap:24px;
+    padding: 0;
+    margin: 0 110px 60px 0;
+}
+
+.footer-copyright_text {
+    margin:30px 0 30px 0;
+}
+
+.footer-container {
+    opacity: 30%;
+    display: flex;
+    justify-content:space-between;
+}
+
+@media screen and (max-width: 1200px) {
+    .footer {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+   .footer-logo {
+        display: none;
+   }
+   .footer-nav-wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 0 60px 0;
+        gap:15px;
+   }
+   .footer-nav-1,
+   .footer-nav-2,
+   .footer-nav-3 {
+    width: unset;   
+   }
+}
+
+@media screen and (max-width: 540px) {
+    .footer-nav_item-img {
+        width: 11px;
+    }
+    .footer-nav-title,
+    .footer-nav-list {
+        font-size: 17px;
+    }
+    .footer-copyright_text,
+    .footer-nav-title {
+        font-size: 14px;
+    }
+    .footer-nav-link {
+        font-size: 18px;
+    }
+    .footer-nav-wrap {
+        flex-wrap: wrap;
+        margin: 0 0 60px 0;
+        justify-content: flex-start;
+        gap: 15px;
+    }  
+    .footer-nav_item {
+        white-space: unset;
+    }
+}

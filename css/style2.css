@@ -1,0 +1,229 @@
+.header{
+
+}
+.container {
+    max-width: 1296px;
+    margin: 0 auto;
+    font-family: 'Nunito', sans-serif;
+
+}
+a {
+    text-decoration: none;
+    color:inherit;
+}
+.menu {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.menu-item{
+    padding-right: 24px;
+    font-size: 14px;
+}
+.menu-link{
+}
+.logo {
+    padding-right: 101.67px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.phonenumber{
+    display: flex;
+    padding-left: 0px;
+}
+.logo-search{
+    display: flex;
+}
+.shopandlike{
+    display: flex;
+    padding-left: 0px;
+}
+.phone{
+    margin-top: 24px;
+    padding-right: 16px;
+    padding-left: 559px;
+    display: inline-flex;
+    align-items: flex-start;
+    font-size: 14px;
+}
+.phone-img {
+  padding-right: 16px;
+}
+.mail{
+    margin-top: 24px;
+    display: inline-flex;
+    align-items: flex-start;
+}
+.mail-img {
+  padding-right: 16px;
+}
+.btn {
+    margin-left: 101.67px;
+    margin-right: 101.67px;
+    padding-left: 0px;
+    margin-left: 0px;
+    width: 110px;
+    height: 41px;
+}
+.button {
+    width: 120px;
+    height: 51px;
+    color: #fff;
+    background-color:#0063B0;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px 25px 10px 25px;
+    font-size: 14px;
+    font-family: Nunito;
+    cursor: pointer;
+}
+.btn-text {
+    margin-top: 8.5px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    margin: 0;
+}
+.form {
+    padding-top: 8.5px;
+
+}
+.srcfld {
+    width: 596px;
+    height: 41px;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid #3333334D;
+    font-size: 14px;
+}
+.srcbtn {
+    background-color: #84C0EA;
+    width: 41x;
+    height: 45px;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    float:right;
+}
+input[type=text]{
+   width: 596px;
+   height: 41px;
+}
+.shop {
+    margin-top: 14px;
+    height: 30px;
+    width: 30px;
+    padding-left: 86px;
+}
+.like {
+    margin-top: 20px;
+    margin-left: 25px;
+    height: 30px;
+    width: 30px;
+    padding-left: 25px;
+}
+.shopnum {
+    float: right;
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 10.5px;
+}
+.likenum {
+    float: right;
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 4.5px;
+}
+.hreftel {
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+.abtn {
+    padding: 10px 10px 10px 10px;
+}
+.breadcrumbs {
+    max-width: 1296px;
+    margin: 0 auto;
+    height: 101px;
+    padding :40px, 0px, 40px, 0px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+.breadcrumbs-container {
+    padding: 40px 0px 40px 0px;
+}
+breadcrumbs-container-a{
+
+}
+.breadcrumbs-img {
+    padding: 0px 16px;
+}
+.inner-heading {
+    max-width: 1296px;
+    margin: 0 auto;
+    height: 108px;
+}
+.inner-heading-p-a {
+    font-family: 'Nunito', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+.inner-heading-p-a {
+    display: flex;
+    gap:25px;
+}
+.text-inner-heading {
+    margin: 0;
+}
+.inner-heading-a {
+    padding: 0;
+    padding-top: 9px;
+}
+/*leftbar*/
+.leftbar {
+    width: 306px;
+    height: 558px;
+}
+.leftbar-1 {
+        background-color: antiquewhite;
+    margin: 0;
+    width: 266px;
+    height: 262px;
+    margin-bottom: 32px;
+}
+.leftbar-1-h {
+    font-family: Nunito;
+    font-size: 21px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 24px;
+}
+.leftbar-form {
+    display: grid;
+    gap:16px;
+}
+.leftbar-label {
+    display: flex;
+    width: 266px;
+    height: 21px;
+}
+.leftbar-input {
+    margin-right: 12px;
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    border: 1px;
+}
+.leftbar-2 {
+          background-color:coral;
+    margin: 0;
+    width: 266px;
+    height: 114px;
+
+}
+
+
+
